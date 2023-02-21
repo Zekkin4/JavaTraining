@@ -7,8 +7,9 @@ public class a2 {
 	static float f;
 	static double d;
 	static char c;
+	static boolean b;
 	public static void main(String[] args) {
 	
-		System.out.println(i+"\n"+l+"\n"+s+"\n"+f+"\n"+d+"\n"+c);
+		System.out.println(i+"\n"+l+"\n"+s+"\n"+f+"\n"+d+"\n"+c +"\n"+b);
 	}
 }
