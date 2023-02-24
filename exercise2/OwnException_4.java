@@ -1,15 +1,15 @@
 package Exercise2;
 
 public class OwnException_4 {
-	public static void main(String[] args)  {
+	public static void main(String[] args) {
 		String s = "apple";
-		
+
 		try {
-			
+
 			if (s.equals("apple")) {
-				
-				throw new UException();
-				
+
+				throw new UException("String Mismatch");
+
 			}
 		} catch (UException e) {
 
@@ -18,12 +18,12 @@ public class OwnException_4 {
 	}
 }
 
-class  UException extends Exception  {
-	public static void nameEx() {
+class UException extends Exception {
+	public UException(String s) {
 		
-		
+		super(s);
 			
-		}
 		
-			
+	}
+
 }
