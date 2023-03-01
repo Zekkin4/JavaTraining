@@ -14,7 +14,9 @@ public class Test {
 					throw new NotCharacter();
 				}
 			}catch(Exception e) {
-			e.printStackTrace();
+				
+			System.out.println(e);
+				
 			}
 			
 		}
@@ -23,6 +25,6 @@ public class Test {
 		
 		return (Character.isAlphabetic(c));
 			
-		
+
 	}
 }
